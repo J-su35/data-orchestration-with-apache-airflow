@@ -1,0 +1,5 @@
+{"timestamp":"2025-10-02T07:06:23.723767Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-02T07:06:23.724475Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/everyday.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-02T07:06:23.753412Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/everyday.py","lineno":12,"logger":"py.warnings"}
+{"timestamp":"2025-10-02T07:06:26.883205Z","level":"info","event":"Hello","logger":"task.stdout"}
+{"timestamp":"2025-10-02T07:06:26.884027Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}
