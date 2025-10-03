@@ -1,0 +1,4 @@
+{"timestamp":"2025-10-03T09:09:06.929804Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-03T09:09:06.930661Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T09:09:07.136471Z","level":"info","event":"AWS Connection (conn_id='my_aws_connection', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper","filename":"connection_wrapper.py","lineno":334}
+{"timestamp":"2025-10-03T09:09:10.101295Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":218}
